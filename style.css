@@ -1,0 +1,32 @@
+:root{
+    --primary-color:black;
+    --secondary-color:white;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+input{
+    margin-bottom: 0.3rem;
+}
+button{
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0.3rem;
+}
+#output{
+    background-color: grey;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    height: 10vh;
+    color: white;
+
+}
